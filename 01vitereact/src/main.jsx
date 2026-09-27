@@ -2,6 +2,7 @@ import React from 'react'
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
+import Chai from './Chai.jsx'
 
 function MyAPP(){
     return(
@@ -35,6 +36,11 @@ const reactElement = React.createElement(
 
 createRoot(document.getElementById('root')).render(
  
-   reactElement
+//    reactElement
+    <>
+    {/* {reactElement} */ anotherElement}
+    <Chai/>
+    </>
+
  
 )
