@@ -3,7 +3,7 @@ import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
-import Card from './components/Card'
+import Card from './components/card.jsx'
 
 function App() {
   let myObj = {
@@ -15,8 +15,8 @@ function App() {
     <>
      <h1 className='bg-green-400  text-black p-4 rounded-xl mb-6'> Tailwind Test </h1>
     
-    <Card username = "Chai aur code"  someObj = {newArr}/>
-    <Card />
+    <Card username = "Chai aur code"  someObj = {newArr} btnText = "Click"/>
+    <Card username = "Chai aur coffe" btnText= "update"/>
 
 
 

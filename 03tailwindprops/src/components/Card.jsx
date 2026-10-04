@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-function Card(username) {
+function Card({username}) {
  console.log(username);
 
   return (
@@ -19,11 +19,9 @@ function Card(username) {
 
       <div className="mb-4">
         <span className="inline-block px-3 py-1 text-xs font-medium tracking-wider uppercase bg-white text-black rounded-full mb-3">
-          Featured
-        </span>
-        <h2 className="text-xl font-bold text-white mb-2 group-hover:text-gray-300 transition-colors duration-200">
           {username}
-        </h2>
+        </span>
+        <h2 className="text-xl font-bold text-white mb-2 group-hover:text-gray-300 transition-colors duration-200">Aftab</h2>
       </div>
 
       <p className="text-gray-400 text-sm leading-relaxed mb-6">
