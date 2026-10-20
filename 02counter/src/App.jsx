@@ -16,7 +16,7 @@ function App() {
     // counter = counter + 1;
 
     if(counter < 20 ){
-    setCounter(counter => counter + 1);
+    setCounter(counter + 1);
     console.log("Counter : ", counter);
     } else{
       alert('Maximum value reached');

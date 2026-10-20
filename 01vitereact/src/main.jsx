@@ -39,6 +39,8 @@ createRoot(document.getElementById('root')).render(
 //    reactElement
     <>
     {/* {reactElement} */ anotherElement}
+    <br />
+    {reactElement}
     <Chai/>
     </>
 
